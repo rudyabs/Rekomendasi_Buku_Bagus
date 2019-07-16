@@ -29,5 +29,23 @@ def rekomendasi(title):
     return titles.iloc[book_indices]
 
 
-print(rekomendasi("Bridget Jones's Diary (Bridget Jones, #1)").head(5)[1:])
+print('Buku Buku bagus untuk Andi:')
+print(rekomendasi("The Hunger Games (The Hunger Games, #1)").head(5))
+print('\n')
+
+print('Buku Buku bagus untuk Budi:')
+print(rekomendasi("Harry Potter and the Sorcerer's Stone (Harry Potter, #1)").head(5))
+print('\n')
+
+print('Buku Buku bagus untuk Ciko:')
+print(rekomendasi("Robots and Empire (Robot #4)").head(5))
+print('\n')
+
+print('Buku Buku bagus untuk Dedi:')
+print(rekomendasi("Bridget Jones's Diary (Bridget Jones, #1)").head(5))
+print('\n')
+
+print('Buku Buku bagus untuk Ello:')
+print(rekomendasi("A History of God: The 4,000-Year Quest of Judaism, Christianity, and Islam").head(5))
+print('\n')
 
